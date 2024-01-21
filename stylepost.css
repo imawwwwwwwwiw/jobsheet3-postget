@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(get\ f.png);
+  background-size: 1351px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.tabel {
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+h2 {
+  text-align: center;
+  color: rgb(63, 36, 1);
+  font-size: 30px;
+}
+
+form {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: wheat;
+  font-size: 18px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border: 1px solid wheat;
+  border-radius: 4px;
+}
+
+input:hover {
+  background-color: burlywood;
+}
+
+select:hover {
+  background-color: burlywood;
+}
+
+input[type="submit"] {
+  background-color: rgb(199, 151, 88);
+  color: wheat;
+  cursor: pointer;
+}
